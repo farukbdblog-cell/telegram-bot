@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 # আপনার টেলিগ্রাম বট টোকেন বসানো হলো
-TOKEN = '8884995427:AAHmUTJnYo3zxDMpakoFrSdxUM49VRi6q30'
+TOKEN = 8884995427:AAHmUTJnYo3zxDMpakoFrSdxUM49VRi6q30'
 bot = telebot.TeleBot(TOKEN)
 
 # ব্যবহারকারীর ব্যালেন্স সংরক্ষণের জন্য ডিকশনারি
