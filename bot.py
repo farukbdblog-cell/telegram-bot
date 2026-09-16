@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 
 # আপনার BotFather থেকে পাওয়া টোকেন এখানে বসাবেন
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "8914296091:AAHJCXIifwEx_GaT8Ey9kEBPg7iLkCVDCVY"
 bot = telebot.TeleBot(TOKEN)
 
 # ব্যবহারকারীর ব্যালেন্স সংরক্ষণের জন্য ডিকশনারি
