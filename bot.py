@@ -1,10 +1,9 @@
-
 import random
 import telebot
 from telebot import types
 
-# আপনার BotFather থেকে পাওয়া টোকেন এখানে বসাবেন
-TOKEN = "8914296091:AAHJCXIifwEx_GaT8Ey9kEBPg7iLkCVDCVY"
+# আপনার টেলিগ্রাম বট টোকেন বসানো হলো
+TOKEN = '8914296091:AAHJCXIifwEx_GaT8Ey9kEBPg7iLkCVDCVY'
 bot = telebot.TeleBot(TOKEN)
 
 # ব্যবহারকারীর ব্যালেন্স সংরক্ষণের জন্য ডিকশনারি
@@ -108,4 +107,5 @@ def refer_link(message):
 
 
 print('Bot is running...')
+bot.remove_webhook()
 bot.infinity_polling()
